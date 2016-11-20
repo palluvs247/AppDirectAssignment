@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: AppdirectExample
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: pals
+Implementation-Vendor-Id: com.appdirect.subscription
+Build-Jdk: 1.8.0_73
+Implementation-URL: http://projects.spring.io/spring-boot/AppdirectExa
+ mple/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,42 @@
+{
+    "type": "SUBSCRIPTION_ORDER",
+    "marketplace": {
+      "baseUrl": "https://www.acme.com",
+      "partner": "APPDIRECT"
+    },
+    "creator": {
+      "address": {
+        "firstName": "Ajeya",
+        "fullName": "Test User",
+        "lastName": "User"
+      },
+      "email": "testuser1@testco.com",
+      "firstName": "Ajeya",
+      "language": "en",
+      "lastName": " User",
+      "locale": "en_US",
+      "openId": "https://www.acme.com/openid/id/47cb8f55-1af6-5bfc-9a7d-8061d3aa0c97",
+      "uuid": "47cb8f55-1af6-5bfc-9a7d-8061d3aa0c97"
+    },
+    "payload": {
+   	  "account": {
+        "accountIdentifier":"365dd1e0-ba16-49f8-9d20-82cd75eaf645",
+        "status": "ACTIVE"
+      },
+      "company": {
+        "country": "INDIA",
+        "name": "PALLAV",
+        "phoneNumber": "1-800-333-3333",
+        "uuid": "385beb51-51ae-4ffe-8c05-3f35a9f99825",
+        "website": "www.testco.com"
+      },
+      "order": {
+        "editionCode": "Standard",
+        "pricingDuration": "MONTHLY",
+        "item": {
+          "quantity": "4",
+          "unit": "USER"
+        }
+      }
+    }
+}
