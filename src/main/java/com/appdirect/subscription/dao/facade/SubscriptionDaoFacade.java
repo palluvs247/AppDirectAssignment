@@ -8,9 +8,9 @@ import com.appdirect.subscription.dao.entity.CustomerCompany;
 import com.appdirect.subscription.dao.entity.CustomerOrder;
 import com.appdirect.subscription.dao.entity.ProductSubscription;
 import com.appdirect.subscription.dao.impl.CustomerAccountRepository;
-import com.appdirect.subscription.dao.impl.CustomerAddressRepositoryTest;
-import com.appdirect.subscription.dao.impl.CustomerCompanyRepositoryTest;
-import com.appdirect.subscription.dao.impl.CustomerItemRepositoryTest;
+import com.appdirect.subscription.dao.impl.CustomerAddressRepository;
+import com.appdirect.subscription.dao.impl.CustomerCompanyRepository;
+import com.appdirect.subscription.dao.impl.CustomerItemRepository;
 import com.appdirect.subscription.dao.impl.CustomerOrderRepository;
 import com.appdirect.subscription.dao.impl.ProductSubscriptionRepository;
 
@@ -18,15 +18,15 @@ import com.appdirect.subscription.dao.impl.ProductSubscriptionRepository;
 public class SubscriptionDaoFacade {
 
 	@Autowired
-	CustomerCompanyRepositoryTest customerCompanyRepository;
+	CustomerCompanyRepository customerCompanyRepository;
 	@Autowired
 	CustomerOrderRepository customerOrderRepository;
 	@Autowired
 	CustomerAccountRepository customerAccountRepository;
 	@Autowired
-	CustomerAddressRepositoryTest customerAddressRepository;
+	CustomerAddressRepository customerAddressRepository;
 	@Autowired
-	CustomerItemRepositoryTest customerItemRepository;
+	CustomerItemRepository customerItemRepository;
 	@Autowired
 	ProductSubscriptionRepository productSubscriptionRepository;
 
@@ -42,7 +42,7 @@ public class SubscriptionDaoFacade {
 	}
 
 
-	public CustomerCompanyRepositoryTest getCustomerCompanyRepository() {
+	public CustomerCompanyRepository getCustomerCompanyRepository() {
 		return customerCompanyRepository;
 	}
 
@@ -54,11 +54,11 @@ public class SubscriptionDaoFacade {
 		return customerAccountRepository;
 	}
 
-	public CustomerAddressRepositoryTest getCustomerAddressRepository() {
+	public CustomerAddressRepository getCustomerAddressRepository() {
 		return customerAddressRepository;
 	}
 
-	public CustomerItemRepositoryTest getCustomerItemRepository() {
+	public CustomerItemRepository getCustomerItemRepository() {
 		return customerItemRepository;
 	}
 
